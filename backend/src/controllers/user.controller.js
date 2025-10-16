@@ -80,7 +80,7 @@ export async function sendFriendRequest(req, res) {
 
     res.status(201).json(friendRequest);
   } catch (error) {
-    console.error("Error in  sendFriendRequest conttroller", error.message);
+    console.error("Error in  sendFriendRequest controller", error.message);
     res.status(500).json({ message: "Internal Server Error" });
   }
 }
