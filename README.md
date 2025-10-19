@@ -42,9 +42,3 @@ npm install
 # set VITE_STREAM_API_KEY in frontend/.env (must match backend STREAM_API_KEY)
 npm run dev
 ```
-
-
-
-git reset --hard 394185ae4525b476f84b85c1c64a5ccba938d9c6
-
-
